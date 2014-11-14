@@ -1,0 +1,17 @@
+{
+  "name": "btjs-cjs-integration",
+  "version": "0.0.1",
+  "description": "Integrate braintree.js using CommonJS",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify js/app.js -o js/app-built.js -d",
+    "server": "http-server -p 3099",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kyledetella",
+  "license": "ISC",
+  "devDependencies": {
+    "braintree-web": "git+ssh://git@github.com/braintree/braintree-web.git#master",
+    "browserify": "^6.3.2"
+  }
+}
