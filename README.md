@@ -20,6 +20,7 @@ npm run build
 ```
 npm run server
 ```
+This will start a server on port 3099 by default. To change your port, edit [this line](https://github.com/kyledetella/braintreejs-cjs/blob/master/package.json#L8).
 
 - - -
 
